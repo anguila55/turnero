@@ -1,0 +1,333 @@
+.row {
+    font-size: 11px;
+    color: gray;
+}
+
+.next-button {
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 0 ;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 25px;
+    text-decoration: none;
+    box-shadow: none;
+    background-color: #3393FF;
+}
+
+.navbar-color {
+    background-color: #3393FF;
+}
+
+.navbar {
+    height: 60px;
+}
+
+.button-icon {
+    padding-right: 3px;
+    padding-left: 20px;
+}
+
+.button-icon-left {
+    padding-right: 20px;
+    padding-left: 3px;
+}
+
+.card-body {
+    padding-left: 50px;
+    padding-right: 50px;
+    /* width: 550px; */
+    font-size: 11px;
+    color: gray;
+}
+
+.card-header {
+    padding: 5px;
+    /* width: 550px; */
+    text-align: center;
+    border-bottom: none;
+    background-color: lightgray;
+}
+
+.header-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.form-control {
+    font-size: 0.75rem;
+}
+
+.icon {
+    position: absolute;
+    left: 9px;
+    z-index: 4;
+    top: 11px;
+    pointer-events: none;
+    font-size: 18px;
+    color: #D0D0D0;
+}
+
+.pl-35 {
+    padding-left: 35px;
+}
+
+label {
+    margin-bottom: 2px;
+}
+
+.f-16 {
+    color:black;
+    font-size: 16px;
+}
+
+.f-13 {
+    font-size: 13px;
+}
+
+.f-30 {
+    font-size: 30px;
+}
+
+.card-body-message {
+    background-color: lightgray;
+}
+
+.card-message {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.message-title {
+    text-align: left;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+}
+
+.sidenav {
+    height: 100vh;
+    width: 250px;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    background-color: #FFF;
+    overflow: auto
+}
+
+.sidenav li {
+    text-decoration: none;
+    font-size: 12px;
+    color: darkgray;
+    display: block;
+    text-align: center;
+}
+
+li .b-text {
+    color: gray;
+    font-weight: bold;
+}
+
+li .border-top {
+    border-top: 1px solid #d0d0d0;
+    flex-grow: 1;
+}
+
+li .border-bottom {
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.number-circle-active {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    background: #3393FF;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    flex-grow: 1;
+    position: relative;
+    top: 12px;
+}
+
+.number-circle-inactive {
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    background: #F0f0f0;
+    color: gray;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    flex-grow: 1;
+    position: relative;
+    top: 12px;
+}
+
+.dropdown-toggle-split {
+    right: -55px;
+
+}
+
+.w-500 {
+    width: 450px;
+}
+
+.container-position {
+    margin-left: 280px;
+    margin-right: 100px;
+}
+
+.btn-lg {
+    height: 40px;
+    line-height: 1;
+    font-size: 12px;
+    text-align: left;
+}
+
+.btn-option {
+    width: 330px;
+    border-radius: 15px;
+}
+
+.pardo-main {
+    position: relative;
+    background: #F0F0F0;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.main-content {
+    background: #F0F0F0;
+    height: 100%;
+    position: relative;
+}
+
+.form-check-inline {
+    margin-right: 40px;
+}
+
+.form-check-input {
+    width: 15px;
+    height: 15px;
+}
+
+.fa-chevron-down {
+    color: black;
+}
+
+@media screen and (max-width: 700px) {
+    .sidenav {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidenav li {float: left;}
+    div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+    .sidenav li {
+        text-align: center;
+        float: none;
+    }
+}
+
+.content {
+    margin-left: 250px;
+    padding: 1px 40px;
+}
+
+body { font-family: 'Roboto'; background-color: #fafafa;}
+.container { margin: 150px auto; max-width: 600px; }
+
+.nao-month .month-head button {
+    padding: 5px;
+}
+.nao-month .month-head {
+    display: flex;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+.month-week {
+    font-size: 10px;
+}
+
+.nao-month .month-head div {
+    font-size: 12px;
+    font-weight:bold;
+}
+
+.month-body {
+    background: white;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.nao-month td {
+    background-color: #A5DF00;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    padding: 2px 0px 18px 10px;
+    text-align: start;
+}
+
+.myCalendar.nao-month td {
+    border: 10px solid #fff;
+}
+
+.nao-month td.active {
+    background-color: coral;
+    box-shadow: none;
+}
+
+.nao-month td.today {
+    background-color: coral;
+    pointer-events: none;
+    box-shadow: none;
+}
+
+.nao-month th, .nao-month td {
+    text-transform: none;
+}
+
+.nao-month td.disabled {
+    background-color: #f0f0f0;
+    pointer-events: none;
+}
+
+.text-disabled {
+    color: #f0f0f0;
+}
+
+.month-text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.custom-text {
+    font-size: 13px;
+}
+
+.available {
+    color: #A5DF00;
+}
+
+.noAvailable {
+    color: coral;
+}
+.nao-month th {
+    padding: 15px 0px 5px 0px;
+}
